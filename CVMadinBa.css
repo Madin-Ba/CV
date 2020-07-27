@@ -22,21 +22,22 @@ img
 #bloc_haut {
 	display: inline-block;
 	border: 0px solid black ;
-	width: 100%;
 }
 #img {
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	background-color: #1E88E5;
 	float: left;
-	width: 100%;
+	width: 400px;
 	text-align: center;
 }
 #titre {
 	padding-top: 50px;
-	margin-left: 130px;
+	margin-left: 140px;
+	line-height: 3pt;
 	border: 0px solid black ;
 	text-align: left;
+	
 }
 #soulignement {
 	text-decoration: underline #1E88E5;
@@ -54,35 +55,20 @@ img
 hr {
 	color : #1E88E5 ;
 }
-
 .sous_sous_bloc_2 {
 	display: inline-block;
 	
 	vertical-align: top;
 }
 .sous_sous_bloc {
+	
 	display: inline-block;
 	margin-right: 70px;
 	vertical-align: top;
 	border: 0px solid black;
 }
-.sous_sous_bloc_milieu {
-	display: inline-block;
-	border: 0px solid black;
-	vertical-align: top;
-}
-.sous_sous_bloc_milieu i{
-	margin-top: 15px;
-}
-#sous_sous_bloc_haut_img {
-	width: 30%;
-	border: 0px solid black;
-}
-#sous_sous_bloc_haut_titre {
-	width: 58%;
-	border: 0px solid black;
-}
-#sous_sous_bloc_haut_img, #sous_sous_bloc_haut_titre  {
+
+.sous_sous_bloc_haut {
 	display: inline-block;
 	margin-right: 70px;
 	vertical-align: top;
@@ -100,7 +86,7 @@ hr {
 	background-color: #1E88E5;
 	float: left;
 	width: 30%;
-	height: 1430px;
+	height: 1400px;
 
 }
 li {
@@ -115,16 +101,14 @@ li {
 	padding-bottom: 740px;
 }
 #loisirs {
-	padding-top: 30px;
+	padding: 30px ;
 	text-align: center;
+<<<<<<< HEAD
 	padding-bottom: 30px;
+=======
+	
+>>>>>>> parent of ed2eca3... Finalisation du CV
 }
-#loisirs i {
-	margin-right: 20px;
-	border: 4px solid black ;
-	border-radius: 50%;
-}
-
 .fil {
 	background-color: #424242;
 	text-align: center ;
@@ -158,38 +142,22 @@ hr
 body {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
-	margin-right: 30px;
 }
-#sous_sous_bloc_haut_img {
-	width: 100%;
-	border: 0px solid black;
-}
-#sous_sous_bloc_haut_titre {
-	width: 100%;
-	border: 0px solid black;
-}
-#grd_bloc {
-	width: 100%;
+#img {
+	width: 200%;
 }
 #bloc_bas {
 	background-color: #1E88E5;
 	float: left;
 	width: 100%;
 	height: auto;
-}
-.sous_bloc {
-		display: flex;
-		flex-direction: column;
-}
-#a_propos {
-	padding-bottom: 140px;
+
 }
 
 #titre {
-	margin-top: 0px;
-	margin-left: 0px;
-	text-align: center;
+	margin-top: 50px;
+	margin-left: 140px;
+	text-align: left;
 }
 
 }
